@@ -1,12 +1,18 @@
 <div align="center">
 
-# Hi, I'm yutianjiang 👋
+# yutianjiang
 
-**Rust · Python · Trading Infrastructure**
+<h3>Trading Systems Engineer</h3>
+
+**Low-Latency Trading Infrastructure · Rust & Python Engineering**
 
 <a href="https://github.com/yutianjiang39/Multisource_HL_Copy">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=3FB8AF&center=true&vCenter=true&width=640&height=40&lines=Event-driven+execution+engines+in+Rust;Control+%26+reporting+layers+in+Python;Measuring+latency+in+percentiles%2C+not+averages" alt="Typing animation: Event-driven execution engines in Rust; Control and reporting layers in Python; Measuring latency in percentiles, not averages" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=3FB8AF&center=true&vCenter=true&width=640&height=40&lines=Low-latency+trading+infrastructure;Event-driven+execution+engines+in+Rust;Risk+controls+and+reliability+by+design;Latency+measured+in+percentiles%2C+not+averages" alt="Typing animation: Low-latency trading infrastructure; Event-driven execution engines in Rust; Risk controls and reliability by design; Latency measured in percentiles, not averages" />
 </a>
+
+| Low Latency | Quantitative Trading | Rust Engineering | Web3 Infrastructure |
+| :---: | :---: | :---: | :---: |
+| 低延迟系统设计 | 量化交易系统 | 高性能系统工程 | 链上交易基础设施 |
 
 </div>
 
@@ -14,19 +20,40 @@
 
 ## About Me · 关于我
 
-- 🔧 I build event-driven trading infrastructure: a Rust engine for real-time execution, with Python for control, operations and reporting.
-  <br />我做事件驱动的交易基础设施：Rust 负责实时执行，Python 负责控制、运维与报告。
-- 📊 I care about measured results: latency percentiles, load conditions and clearly stated test boundaries.
-  <br />我看重可测量的结果：延迟分位数、负载条件，以及清楚标注的测试边界。
-- 🛡️ I treat risk controls, observability and operations as part of the product, not an afterthought.
-  <br />风控、可观测性和运维是产品的一部分，而不是事后补丁。
-- 🌐 Maintainer of [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy).
-  <br />[Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) 的维护者。
+- **Execution systems.** I design and build event-driven trading infrastructure: a Rust engine on the latency-critical execution path, with a Python control plane for orchestration, operations and reporting.
+
+  **执行系统。** 设计并构建事件驱动的交易基础设施：Rust 引擎承担延迟敏感的执行路径，Python 控制面负责编排、运维与报告。
+
+- **Performance engineering.** I characterise systems by latency percentiles under stated load, and keep local, simulated and live end-to-end measurements separate rather than quoting a single headline number.
+
+  **性能工程。** 以明确负载条件下的延迟分位数刻画系统表现，本地、模拟与实盘端到端指标分开呈现，不以单一峰值概括。
+
+- **Risk and reliability.** Risk controls, state recovery and observability are part of the architecture: deterministic guards, persistent state, and an auditable record of every intervention.
+
+  **风控与可靠性。** 风险控制、状态恢复与可观测性属于架构本身：确定性风控守护、持久化状态，以及可审计的干预记录。
+
+- **Open source.** Maintainer of [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy), a multi-source execution engine for Hyperliquid.
+
+  **开源。** [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) 的维护者，一个面向 Hyperliquid 的多来源执行引擎。
 
 <!-- TODO(个人信息占位 / personal info placeholders) — 填写后取消注释 / uncomment after filling in
-- 📍 Based in: <LOCATION>
-- 💼 Role: <ROLE / COMPANY>
+- **Based in:** <LOCATION>
+- **Role:** <ROLE / COMPANY>
 -->
+
+## Current Focus · 当前技术方向
+
+- 🦀 **Rust** — asynchronous runtimes, low-latency system design, and performance profiling.
+
+  异步运行时、低延迟系统设计与性能剖析。
+
+- 🐍 **Python** — engineering toolchains, automated testing, and infrastructure operations.
+
+  工程工具链、自动化测试与基础设施运维。
+
+- 📈 **Quantitative Trading & Web3** — low-latency quantitative trading systems, on-chain market microstructure, and trading infrastructure.
+
+  低延迟量化交易系统、链上市场微观结构与交易基础设施。
 
 ## Tech Stack · 技术栈
 
@@ -44,7 +71,7 @@
 ![reqwest](https://img.shields.io/badge/reqwest-161B22?style=flat-square)
 ![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square)
 
-**Data & Ops · 数据与运维**
+**Data & Operations · 数据与运维**
 
 ![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9)
 ![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624)
@@ -62,9 +89,9 @@
 [![Forks](https://img.shields.io/github/forks/yutianjiang39/Multisource_HL_Copy?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/network/members)
 [![Checks](https://img.shields.io/github/actions/workflow/status/yutianjiang39/Multisource_HL_Copy/public-check.yml?style=flat-square&label=checks&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/actions/workflows/public-check.yml)
 
-A multi-source copy-trading execution engine for Hyperliquid — event-driven, Rust real-time execution, multi-target following, with risk controls and operational observability.
+A multi-source copy-trading execution engine for Hyperliquid: event-driven architecture, real-time execution in Rust, multi-target following, with integrated risk controls and operational observability.
 
-面向 Hyperliquid 的多来源跟单执行引擎：事件驱动、Rust 实时执行、多目标跟随、风险与运行可观测性。
+面向 Hyperliquid 的多来源跟单执行引擎：事件驱动架构、Rust 实时执行、多目标跟随，内置风险控制与运行可观测性。
 
 <a href="https://github.com/yutianjiang39/Multisource_HL_Copy">
   <img src="https://raw.githubusercontent.com/yutianjiang39/Multisource_HL_Copy/main/assets/performance.svg" width="720" alt="Multisource HL Copy performance summary: local submit latency p99, burst signal test and configurable target count, each with its own evidence scope. 性能摘要图，各数字的证据范围分别标注。" />
@@ -72,18 +99,13 @@ A multi-source copy-trading execution engine for Hyperliquid — event-driven, R
 
 | | |
 | --- | --- |
-| **Architecture · 架构** | Rust execution engine + Python control & reporting · Rust 执行引擎 + Python 控制与报告 |
-| **Scope · 范围** | Order mirroring, position changes, risk intervention, reports · 委托跟随、仓位变化、风险干预、运行报告 |
-| **Numbers · 数据** | Recorded results and their test conditions are in the [repository README](https://github.com/yutianjiang39/Multisource_HL_Copy#readme) · 实测结果与测试口径见仓库 README |
+| **Architecture · 架构** | Rust execution engine with a Python control and reporting plane · Rust 执行引擎 + Python 控制与报告面 |
+| **Scope · 范围** | Order lifecycle mirroring, position management, risk intervention, reporting · 委托生命周期镜像、仓位管理、风险干预、运行报告 |
+| **Evidence · 实测** | Recorded latency and load results, with their test conditions, are in the [repository README](https://github.com/yutianjiang39/Multisource_HL_Copy#readme) · 延迟与负载实测结果及测试口径见仓库 README |
 
-> This is a public showcase repository; the production trading implementation stays private.
-> <br />这是公开展示仓库，生产交易实现保持私有。
-
-## Currently Learning · 正在学习
-
-- 🦀 **Rust** — async runtimes, low-latency design, profiling · 异步运行时、低延迟设计与性能剖析
-- 🐍 **Python** — tooling, testing and operations automation · 工具链、测试与运维自动化
-- ⛓️ **Web3 / Crypto** — on-chain market structure and exchange APIs · 链上市场结构与交易所 API
+> Public showcase repository; the production trading implementation remains private.
+>
+> 公开展示仓库，生产交易实现保持私有。
 
 ## GitHub Statistics · GitHub 统计
 
@@ -93,7 +115,6 @@ A multi-source copy-trading execution engine for Hyperliquid — event-driven, R
 
 ## Contribution Graph · 贡献图
 
-<!-- SNAKE:START — 启用 snake 工作流并首次运行成功后，取消下面的注释 / uncomment after the snake workflow has run once
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yutianjiang39/yutianjiang39/output/github-contribution-grid-snake-dark.svg" />
@@ -101,25 +122,22 @@ A multi-source copy-trading execution engine for Hyperliquid — event-driven, R
     <img src="https://raw.githubusercontent.com/yutianjiang39/yutianjiang39/output/github-contribution-grid-snake-dark.svg" alt="Contribution graph snake animation. 贡献图贪吃蛇动画。" />
   </picture>
 </div>
-SNAKE:END -->
-
-_Coming soon — generated daily by GitHub Actions. · 即将上线，由 GitHub Actions 每日生成。_
 
 ## Contact · 联系方式
 
 [![GitHub](https://img.shields.io/badge/GitHub-yutianjiang39-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/yutianjiang39)
 
-- Project questions: open an [issue](https://github.com/yutianjiang39/Multisource_HL_Copy/issues) · 项目相关问题请提 issue
-- Security reports: see [SECURITY.md](https://github.com/yutianjiang39/Multisource_HL_Copy/blob/main/SECURITY.md) · 安全问题见 SECURITY.md
+- **Project questions** — open an [issue](https://github.com/yutianjiang39/Multisource_HL_Copy/issues) · 项目相关问题请提 issue
+- **Security reports** — see [SECURITY.md](https://github.com/yutianjiang39/Multisource_HL_Copy/blob/main/SECURITY.md) · 安全问题见 SECURITY.md
 
 <!-- TODO(联系方式占位 / contact placeholders) — 填写后取消注释 / uncomment after filling in
-- 📧 Email: <EMAIL>
-- 🐦 X / Twitter: <HANDLE>
-- ✈️ Telegram: <HANDLE>
+- **Email** — <EMAIL>
+- **X / Twitter** — <HANDLE>
+- **Telegram** — <HANDLE>
 -->
 
 ---
 
 <div align="center">
-  <sub>Built with Rust 🦀 and Python 🐍 · Nothing here is financial advice · 本页内容不构成投资建议</sub>
+  <sub>Trading Systems Engineer · Rust & Python · Nothing here is financial advice · 本页内容不构成投资建议</sub>
 </div>

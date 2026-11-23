@@ -1,3 +1,2 @@
-# Snake SVGs live on the `output` branch, which exists only after the snake
-# workflow has run once. Remove this line after that first run.
-^https://raw\.githubusercontent\.com/yutianjiang39/yutianjiang39/output/
+# One regular expression per line; matching URLs are skipped by the link check.
+# Keep this list empty unless a URL is known-good but unreachable from CI.
