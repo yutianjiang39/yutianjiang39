@@ -1,0 +1,3 @@
+# Snake SVGs live on the `output` branch, which exists only after the snake
+# workflow has run once. Remove this line after that first run.
+^https://raw\.githubusercontent\.com/yutianjiang39/yutianjiang39/output/

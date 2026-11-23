@@ -1,0 +1,6 @@
+# Profile READMEs lean on inline HTML and long badge lines; relax only those rules.
+config:
+  MD013: false # line length (badge and bilingual lines)
+  MD033: false # inline HTML (<div>, <picture>, <br />)
+  MD036: false # bold line used as a group label
+  MD041: false # file starts with a centered <div>, not a heading
