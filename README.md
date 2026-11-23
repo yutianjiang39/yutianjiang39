@@ -85,7 +85,7 @@
 
 ### [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy)
 
-[![Stars](https://img.shields.io/github/stars/yutianjiang39/Multisource_HL_Copy?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/stargazers)
+[![Stars](https://img.shields.io/github/stars/yutianjiang39/Multisource_HL_Copy?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy)
 [![Forks](https://img.shields.io/github/forks/yutianjiang39/Multisource_HL_Copy?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/network/members)
 [![Checks](https://img.shields.io/github/actions/workflow/status/yutianjiang39/Multisource_HL_Copy/public-check.yml?style=flat-square&label=checks&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/actions/workflows/public-check.yml)
 
@@ -106,6 +106,22 @@ A multi-source copy-trading execution engine for Hyperliquid: event-driven archi
 > Public showcase repository; the production trading implementation remains private.
 >
 > 公开展示仓库，生产交易实现保持私有。
+
+## Ecosystem & References · 生态与参考
+
+Open-source projects I depend on or study. They are upstream projects maintained by their own teams, not my work.
+
+我依赖或研究的开源项目。它们由各自团队维护，是上游项目，不是我的作品。
+
+| Area · 领域 | Project · 项目 | What it is · 项目定位 |
+| --- | --- | --- |
+| **Execution engines · 执行引擎** | [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) | Rust-native trading engine with a deterministic event-driven architecture · Rust 原生交易引擎，确定性事件驱动架构 |
+| | [Hummingbot](https://github.com/hummingbot/hummingbot) | Framework for building and deploying crypto trading bots · 加密交易机器人的构建与部署框架 |
+| **Hyperliquid infrastructure · Hyperliquid 基础设施** | [Hyperliquid Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk) | Official Python SDK for the Hyperliquid API; a dependency of my own engine · 官方 Python SDK，我的引擎的实际依赖 |
+| | [Hyperliquid Rust SDK](https://github.com/hyperliquid-dex/hyperliquid-rust-sdk) | Official Rust SDK for the Hyperliquid API · 官方 Rust SDK |
+| | [Order Book Server](https://github.com/hyperliquid-dex/order_book_server) | Order book data server from the Hyperliquid team · Hyperliquid 团队的盘口数据服务 |
+| **Exchange connectivity · 交易所接入** | [CCXT](https://github.com/ccxt/ccxt) | Unified trading API across 100+ crypto exchanges · 覆盖 100 多家交易所的统一交易 API |
+| **Research · 研究与回测** | [VectorBT](https://github.com/polakowo/vectorbt) | Vectorised backtesting and research engine · 向量化回测与研究引擎 |
 
 ## GitHub Statistics · GitHub 统计
 
