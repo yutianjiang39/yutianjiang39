@@ -61,25 +61,11 @@ A multi-source copy-trading execution engine for Hyperliquid: event-driven archi
 
 **Architecture · 系统架构**
 
-```mermaid
-flowchart LR
-    S["Source wallets<br/>来源钱包（多个）"] -->|"order & fill events<br/>委托与成交事件"| E
-    subgraph E["Rust execution engine · Rust 执行引擎"]
-        direction TB
-        M["Order lifecycle mirroring<br/>委托生命周期镜像"]
-        P["Position following<br/>仓位跟随"]
-        ST[("Persistent state<br/>持久化状态")]
-        M --- ST
-        P --- ST
-    end
-    E -->|"place / modify / cancel<br/>下单 / 改单 / 撤单"| X["Hyperliquid"]
-    X -->|"own order & fill updates<br/>本方委托与成交回报"| E
-    G["Risk guard<br/>确定性风控"] -->|"pause · cancel · flatten<br/>暂停 · 撤单 · 平仓"| E
-    E --> G
-    C["Python control plane<br/>Python 控制面"] -->|"start · stop · config<br/>启停 · 配置"| E
-    E --> R["Alerts & periodic reports<br/>事件提醒与周期报告"]
-    G --> R
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/multisource-hl-copy-architecture-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/multisource-hl-copy-architecture-light.svg" />
+  <img src="assets/multisource-hl-copy-architecture-light.svg" width="100%" alt="Multisource HL Copy architecture: source wallets send order and fill events to the Rust execution engine (order lifecycle mirroring, position following, persistent state), which places, modifies and cancels orders on Hyperliquid and receives its own order and fill updates; a deterministic risk guard can pause, cancel or flatten; a Python control plane starts, stops and configures the engine; engine and risk guard feed alerts and periodic reports. 系统架构图：来源钱包的委托与成交事件进入 Rust 执行引擎（委托生命周期镜像、仓位跟随、持久化状态），引擎在 Hyperliquid 下单、改单、撤单并接收本方回报；确定性风控可暂停、撤单、平仓；Python 控制面负责启停与配置；引擎与风控输出事件提醒与周期报告。" />
+</picture>
 
 <sub>Conceptual diagram of the public capability description; it does not show execution algorithms or parameters. 按公开能力说明绘制的示意图，不含执行算法与参数。</sub>
 
@@ -113,21 +99,11 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 
 **Architecture · 系统架构**
 
-```mermaid
-flowchart LR
-    A["Official API<br/>官方 API"] --> C
-    B["Official S3 archive<br/>官方 S3 归档"] --> C
-    F["Local files (JSON / CSV)<br/>本地文件导入"] --> C
-    C["Collector<br/>采集与去重"] --> D[("Per-wallet SQLite cache<br/>按钱包的 SQLite 缓存")]
-    D --> M["Metrics<br/>收益 · 风险 · 行为 · 成本"]
-    D --> K["Mark-to-market rebuild<br/>盯市重建"]
-    O["Official portfolio figures<br/>官方 portfolio 数据"] --> Q
-    K --> Q["Weekly reconciliation<br/>逐周对账（残差公开）"]
-    M --> H["Offline HTML report + CSV / audit files<br/>离线 HTML 报告 + CSV / 审计文件"]
-    Q --> H
-    U["Textual TUI / CLI<br/>终端界面 / 命令行"] -.->|"runs<br/>驱动"| C
-    U -.-> H
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hyperliquid-monitor-architecture-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hyperliquid-monitor-architecture-light.svg" />
+  <img src="assets/hyperliquid-monitor-architecture-light.svg" width="100%" alt="Hyperliquid Monitor architecture: the official API, the official S3 archive and local JSON / CSV files feed a collector that deduplicates into a per-wallet SQLite cache; the cache feeds metrics and a mark-to-market rebuild, which is reconciled weekly against the official portfolio figures; metrics and reconciliation produce the offline HTML report with CSV and audit files; the Textual TUI and CLI drive the collector and the report. 系统架构图：官方 API、官方 S3 归档与本地文件经采集与去重写入按钱包的 SQLite 缓存；缓存供给指标计算与盯市重建，后者与官方 portfolio 数据逐周对账；指标与对账结果生成离线 HTML 报告及 CSV / 审计文件；终端界面与命令行驱动采集与报告。" />
+</picture>
 
 > Read-only analytics: it reports on a wallet's history and never places orders.
 >

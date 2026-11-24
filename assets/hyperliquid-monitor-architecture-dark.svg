@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="748" viewBox="0 0 960 748" role="img" aria-labelledby="title desc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">
+<title id="title">Hyperliquid Monitor architecture · 系统架构</title>
+<desc id="desc">The official API, the official S3 archive and local JSON or CSV files feed a collector that deduplicates into a per-wallet SQLite cache. The cache feeds metrics and a mark-to-market rebuild. The rebuild is reconciled weekly against the official portfolio figures. Metrics and reconciliation produce an offline HTML report with CSV and audit files. A Textual TUI and CLI drive the collector and the report.</desc>
+<defs><marker id="a-line" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1,1.5 L9,5 L1,8.5 Z" fill="#8B949E"/></marker><marker id="a-warn" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1,1.5 L9,5 L1,8.5 Z" fill="#D29922"/></marker></defs>
+<rect x="0.5" y="0.5" width="959" height="747" rx="14" fill="#0D1117" stroke="#30363D"/>
+<rect x="40" y="33" width="4" height="14" rx="2" fill="#3FB8AF"/>
+<path d="M798,41 H828" stroke="#8B949E" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a-line)"/>
+<path d="M624,41 H654" stroke="#8B949E" stroke-width="1.5" marker-end="url(#a-line)"/>
+<path d="M140,148 L140,164 Q140,172 148,172 L360,172" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M580,148 L580,164 Q580,172 572,172 L360,172" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M360,148 L360,196" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" marker-end="url(#a-line)"/>
+<circle cx="360" cy="172" r="3" fill="#8B949E"/>
+<path d="M360,260 L360,308" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" marker-end="url(#a-line)"/>
+<path d="M360,376 L360,420" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" marker-end="url(#a-line)"/>
+<path d="M360,398 L148,398 Q140,398 140,406 L140,420" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" marker-end="url(#a-line)"/>
+<circle cx="360" cy="398" r="3" fill="#8B949E"/>
+<path d="M360,484 L360,532" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" marker-end="url(#a-line)"/>
+<path d="M520,564 L460,564" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" marker-end="url(#a-line)"/>
+<path d="M140,484 L140,644" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" marker-end="url(#a-line)"/>
+<path d="M360,596 L360,644" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" marker-end="url(#a-line)"/>
+<path d="M740,228 L460,228" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4" marker-end="url(#a-line)"/>
+<path d="M830,260 L830,668 Q830,676 822,676 L460,676" fill="none" stroke="#8B949E" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4" marker-end="url(#a-line)"/>
+<text x="54" y="45" font-size="12" font-weight="700" fill="#3FB8AF" text-anchor="start" letter-spacing="1.2">HYPERLIQUID MONITOR</text>
+<text x="234.9" y="45" font-size="12.5" font-weight="400" fill="#9198A1" text-anchor="start">Architecture · 系统架构</text>
+<text x="920" y="45" font-size="12" font-weight="400" fill="#9198A1" text-anchor="end">Control · 控制</text>
+<text x="774" y="45" font-size="12" font-weight="400" fill="#9198A1" text-anchor="end">Data flow · 数据流</text>
+<rect x="40" y="84" width="200" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="140.0" y="112.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Official API</text>
+<text x="140.0" y="132.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">官方 API</text>
+<rect x="260" y="84" width="200" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="360.0" y="112.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Official S3 archive</text>
+<text x="360.0" y="132.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">官方 S3 归档</text>
+<rect x="480" y="84" width="200" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="580.0" y="112.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Local files (JSON / CSV)</text>
+<text x="580.0" y="132.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">本地文件导入</text>
+<rect x="260" y="196" width="200" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="360.0" y="224.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Collector</text>
+<text x="360.0" y="244.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">采集与去重</text>
+<path d="M250,317 A110.0,9 0 0 1 470,317 V367 A110.0,9 0 0 1 250,367 Z" fill="#161B22" stroke="#3A424B"/>
+<path d="M250,317 A110.0,9 0 0 0 470,317" fill="none" stroke="#3A424B"/>
+<text x="360.0" y="344.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Per-wallet SQLite cache</text>
+<text x="360.0" y="364.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">按钱包的 SQLite 缓存</text>
+<rect x="40" y="420" width="200" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="140.0" y="448.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Metrics</text>
+<text x="140.0" y="468.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">收益 · 风险 · 行为 · 成本</text>
+<rect x="260" y="420" width="200" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="360.0" y="448.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Mark-to-market rebuild</text>
+<text x="360.0" y="468.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">盯市重建</text>
+<rect x="260" y="532" width="200" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="360.0" y="560.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Weekly reconciliation</text>
+<text x="360.0" y="580.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">逐周对账（残差公开）</text>
+<rect x="520" y="532" width="220" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="630.0" y="560.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Official portfolio figures</text>
+<text x="630.0" y="580.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">官方 portfolio 数据</text>
+<rect x="40" y="644" width="420" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="250.0" y="672.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Offline HTML report + CSV / audit files</text>
+<text x="250.0" y="692.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">离线 HTML 报告 + CSV / 审计文件</text>
+<rect x="740" y="196" width="180" height="64" rx="10" fill="#161B22" stroke="#3A424B"/>
+<text x="830.0" y="224.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="middle">Textual TUI / CLI</text>
+<text x="830.0" y="244.0" font-size="13" font-weight="400" fill="#9198A1" text-anchor="middle">终端界面 / 命令行</text>
+<text x="600" y="218" font-size="12.5" font-weight="500" fill="#E6EDF3" text-anchor="middle">runs · 驱动</text>
+</svg>
