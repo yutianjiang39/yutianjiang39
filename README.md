@@ -140,7 +140,7 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 | **Architecture · 架构** | Python pipeline with a Textual terminal UI and a CLI, a per-wallet SQLite cache, and a self-contained report · Python 数据管线 + Textual 终端界面与命令行，按钱包的 SQLite 缓存，自包含报告 |
 | **Metrics · 指标** | Returns (TWR, XIRR), risk (drawdown, Sharpe, Sortino, VaR/CVaR), trading behaviour, costs and positions · 收益（TWR、XIRR）、风险（回撤、Sharpe、Sortino、VaR/CVaR）、交易行为、成本与持仓 |
 | **Data quality · 数据质量** | Weekly reconciliation against official cumulative PnL; residuals, history gaps and the source of every number are shown in the report · 与官方累计盈亏逐周对账；残差、历史缺口与每个数字的来源都在报告中公开 |
-| **Docs · 文档** | Usage, data scope and accounting rules are in the [Chinese README](https://github.com/yutianjiang39/Hyperliquid_Monitor/blob/main/README.zh-CN.md) · 用法、数据口径与计算规则见中文 README |
+| **Docs · 文档** | Usage, data scope and accounting rules are in the [repository README](https://github.com/yutianjiang39/Hyperliquid_Monitor#readme) (Chinese) · 用法、数据口径与计算规则见仓库 README |
 
 > Read-only analytics: it reports on a wallet's history and never places orders.
 >
