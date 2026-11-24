@@ -20,12 +20,14 @@ I build trading infrastructure for on-chain markets: Rust on the latency-critica
 
 我做链上交易基础设施：延迟敏感的执行路径用 Rust，控制、运维与分析用 Python。维护 [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) 与 [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)。
 
+**Current focus · 当前方向：** multi-source execution reliability on Hyperliquid, and performance analytics that can be reconciled against official figures. · Hyperliquid 上多来源执行的可靠性，以及能与官方数据对账的业绩分析。
+
 <!-- TODO(个人信息占位 / personal info placeholders) — 填写后取消注释 / uncomment after filling in
 - **Based in:** <LOCATION>
 - **Role:** <ROLE / COMPANY>
 -->
 
-## 02 · Core Expertise · 核心能力
+## 02 · Engineering Expertise · 工程能力
 
 | | |
 | --- | --- |
@@ -182,13 +184,15 @@ flowchart LR
 
 ## 06 · Contact · 联系方式
 
+[![Email](https://img.shields.io/badge/Email-yutianjiang39%40gmail.com-161B22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:yutianjiang39@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-yutianjiang39-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/yutianjiang39)
+
+- **Email** — [yutianjiang39@gmail.com](mailto:yutianjiang39@gmail.com) for roles, collaboration and technical discussion · 工作机会、合作与技术交流请发邮件
 
 - **Project questions** — open an issue in the relevant repository: [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy/issues) · [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor/issues) · 项目相关问题请在对应仓库提 issue
 - **Security reports** — see [SECURITY.md](https://github.com/yutianjiang39/Multisource_HL_Copy/blob/main/SECURITY.md) · 安全问题见 SECURITY.md
 
 <!-- TODO(联系方式占位 / contact placeholders) — 填写后取消注释 / uncomment after filling in
-- **Email** — <EMAIL>
 - **LinkedIn** — <URL>
 - **Website** — <URL>
 - **X / Twitter** — <HANDLE>
