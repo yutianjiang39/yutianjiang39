@@ -32,9 +32,13 @@
 
   **风控与可靠性。** 风险控制、状态恢复与可观测性属于架构本身：确定性风控守护、持久化状态，以及可审计的干预记录。
 
-- **Open source.** Maintainer of [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy), a multi-source execution engine for Hyperliquid.
+- **Analytics and reconciliation.** I treat performance numbers as something to be audited: metrics anchored to the venue's official figures, rebuilt independently from fills, and reconciled with the residuals shown rather than hidden.
 
-  **开源。** [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) 的维护者，一个面向 Hyperliquid 的多来源执行引擎。
+  **分析与对账。** 把业绩数字当作需要审计的对象：指标锚定官方数据，再由成交独立重建并对账，残差公开而不是隐藏。
+
+- **Open source.** Maintainer of [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy), a multi-source execution engine for Hyperliquid, and [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor), a local-first wallet analytics and reporting tool.
+
+  **开源。** 维护 [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy)（面向 Hyperliquid 的多来源执行引擎）与 [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)（本地优先的钱包分析与报告工具）。
 
 <!-- TODO(个人信息占位 / personal info placeholders) — 填写后取消注释 / uncomment after filling in
 - **Based in:** <LOCATION>
@@ -55,6 +59,10 @@
 
   低延迟量化交易系统、链上市场微观结构与交易基础设施。
 
+- 📊 **Performance Analytics** — PnL attribution, mark-to-market reconciliation, and risk metrics that state where each number comes from.
+
+  盈亏归因、盯市对账，以及标明每个数字来源的风险指标。
+
 ## Tech Stack · 技术栈
 
 **Languages · 语言**
@@ -71,9 +79,18 @@
 ![reqwest](https://img.shields.io/badge/reqwest-161B22?style=flat-square)
 ![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square)
 
+**Python ecosystem · Python 生态**
+
+![Textual](https://img.shields.io/badge/Textual-161B22?style=flat-square)
+![Rich](https://img.shields.io/badge/Rich-161B22?style=flat-square)
+![pytest](https://img.shields.io/badge/pytest-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC)
+![Apache ECharts](https://img.shields.io/badge/Apache_ECharts-161B22?style=flat-square&logo=apacheecharts&logoColor=AA344D)
+![Tabler](https://img.shields.io/badge/Tabler-161B22?style=flat-square)
+
 **Data & Operations · 数据与运维**
 
 ![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-161B22?style=flat-square)
 ![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624)
 ![systemd](https://img.shields.io/badge/systemd-161B22?style=flat-square)
 ![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032)
@@ -81,7 +98,7 @@
 ![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4)
 ![Ruff](https://img.shields.io/badge/Ruff-161B22?style=flat-square&logo=ruff&logoColor=D7FF64)
 
-## Featured Project · 精选项目
+## Featured Projects · 精选项目
 
 ### [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy)
 
@@ -106,6 +123,28 @@ A multi-source copy-trading execution engine for Hyperliquid: event-driven archi
 > Public showcase repository; the production trading implementation remains private.
 >
 > 公开展示仓库，生产交易实现保持私有。
+
+### [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)
+
+[![Stars](https://img.shields.io/github/stars/yutianjiang39/Hyperliquid_Monitor?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Hyperliquid_Monitor)
+[![Forks](https://img.shields.io/github/forks/yutianjiang39/Hyperliquid_Monitor?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Hyperliquid_Monitor/network/members)
+[![Last commit](https://img.shields.io/github/last-commit/yutianjiang39/Hyperliquid_Monitor?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Hyperliquid_Monitor/commits/main)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10+-161B22?style=flat-square&logo=python&logoColor=3776AB)
+
+A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk are anchored to the official portfolio figures, reconciled against an independent mark-to-market rebuild, and delivered as a fully offline HTML report. It runs on your own machine, and public queries need no private key.
+
+面向 Hyperliquid 的本地优先钱包分析工具：收益、回撤与风险指标锚定官方 portfolio 数据，与独立的盯市重建逐周对账，并输出完全离线的 HTML 报告。程序在本机运行，公开查询不需要私钥。
+
+| | |
+| --- | --- |
+| **Architecture · 架构** | Python pipeline with a Textual terminal UI and a CLI, a per-wallet SQLite cache, and a self-contained report · Python 数据管线 + Textual 终端界面与命令行，按钱包的 SQLite 缓存，自包含报告 |
+| **Metrics · 指标** | Returns (TWR, XIRR), risk (drawdown, Sharpe, Sortino, VaR/CVaR), trading behaviour, costs and positions · 收益（TWR、XIRR）、风险（回撤、Sharpe、Sortino、VaR/CVaR）、交易行为、成本与持仓 |
+| **Data quality · 数据质量** | Weekly reconciliation against official cumulative PnL; residuals, history gaps and the source of every number are shown in the report · 与官方累计盈亏逐周对账；残差、历史缺口与每个数字的来源都在报告中公开 |
+| **Docs · 文档** | Usage, data scope and accounting rules are in the [Chinese README](https://github.com/yutianjiang39/Hyperliquid_Monitor/blob/main/README.zh-CN.md) · 用法、数据口径与计算规则见中文 README |
+
+> Read-only analytics: it reports on a wallet's history and never places orders.
+>
+> 只读分析工具：只呈现钱包历史，不会下单。
 
 ## Ecosystem & References · 生态与参考
 
@@ -143,7 +182,7 @@ Open-source projects I depend on or study. They are upstream projects maintained
 
 [![GitHub](https://img.shields.io/badge/GitHub-yutianjiang39-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/yutianjiang39)
 
-- **Project questions** — open an [issue](https://github.com/yutianjiang39/Multisource_HL_Copy/issues) · 项目相关问题请提 issue
+- **Project questions** — open an issue in the relevant repository: [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy/issues) · [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor/issues) · 项目相关问题请在对应仓库提 issue
 - **Security reports** — see [SECURITY.md](https://github.com/yutianjiang39/Multisource_HL_Copy/blob/main/SECURITY.md) · 安全问题见 SECURITY.md
 
 <!-- TODO(联系方式占位 / contact placeholders) — 填写后取消注释 / uncomment after filling in
