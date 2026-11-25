@@ -16,11 +16,9 @@
 
 ## 01 · Introduction · 简介
 
-I build trading infrastructure for on-chain markets: Rust on the latency-critical execution path, Python for control, operations and analytics. I maintain [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) and [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor).
+Specialized in low-latency trading infrastructure for on-chain markets, with expertise in Rust execution engines and Python control, operations and analytics tooling. Author and maintainer of [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) and [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor); contributor to open-source trading and data libraries including [pybotters](https://github.com/pybotters/pybotters), [hypersdk](https://github.com/infinitefield/hypersdk) and [petl](https://github.com/petl-developers/petl). Currently focused on multi-source execution reliability on Hyperliquid and performance analytics reconciled against official figures.
 
-我做链上交易基础设施：延迟敏感的执行路径用 Rust，控制、运维与分析用 Python。维护 [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) 与 [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)。
-
-**Current focus · 当前方向：** multi-source execution reliability on Hyperliquid, and performance analytics that can be reconciled against official figures. · Hyperliquid 上多来源执行的可靠性，以及能与官方数据对账的业绩分析。
+专注于链上市场的低延迟交易基础设施，精通 Rust 执行引擎与 Python 控制、运维及分析工具的开发。主导开发并维护 [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) 与 [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)，参与 [pybotters](https://github.com/pybotters/pybotters)、[hypersdk](https://github.com/infinitefield/hypersdk)、[petl](https://github.com/petl-developers/petl) 等开源交易与数据处理库的开发。目前致力于 Hyperliquid 多来源执行的可靠性，以及可与官方数据对账的业绩分析。
 
 <!-- TODO(个人信息占位 / personal info placeholders) — 填写后取消注释 / uncomment after filling in
 - **Based in:** <LOCATION>
@@ -33,7 +31,7 @@ I build trading infrastructure for on-chain markets: Rust on the latency-critica
 | --- | --- |
 | **Rust** | Asynchronous runtimes, event-driven engines, PyO3 bindings · 异步运行时、事件驱动引擎、PyO3 绑定 |
 | **Python** | Control planes, test automation, operations tooling · 控制面、自动化测试、运维工具 |
-| **Execution Systems** | Order lifecycle, position management, multi-source following · 委托生命周期、仓位管理、多来源跟随 |
+| **Execution Systems** | Order lifecycle, position management, multi-source following, connectivity across exchanges and brokers · 委托生命周期、仓位管理、多来源跟随、多交易所与券商接入 |
 | **Performance Engineering** | Latency profiling and load testing on the execution path · 执行路径的延迟剖析与负载测试 |
 | **Risk & Reliability** | Deterministic guards, persistent state and recovery, observability · 确定性风控、状态持久化与恢复、可观测性 |
 
