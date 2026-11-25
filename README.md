@@ -109,7 +109,16 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 >
 > 只读分析工具：只呈现钱包历史，不会下单。
 
-## 04 · Technical Stack · 技术栈
+## 04 · Open Source Contributions · 开源贡献
+
+Merged fixes upstream · 已合入上游的修复：
+
+| Project · 项目 | Contribution · 贡献 |
+| --- | --- |
+| [petl-developers/petl](https://github.com/petl-developers/petl) ![Stars](https://img.shields.io/github/stars/petl-developers/petl?style=flat-square&color=3FB8AF&labelColor=161B22) | [#841](https://github.com/petl-developers/petl/pull/841) — `crossjoin` no longer drops data rows from one-shot (iterator) inputs · 修复 `crossjoin` 在一次性迭代输入下丢失数据行 |
+| [pybotters/pybotters](https://github.com/pybotters/pybotters) ![Stars](https://img.shields.io/github/stars/pybotters/pybotters?style=flat-square&color=3FB8AF&labelColor=161B22) | [#591](https://github.com/pybotters/pybotters/pull/591) — order-book sorting honors a zero depth limit · 订单簿排序正确处理深度上限为 0 的情况 |
+
+## 05 · Technical Stack · 技术栈
 
 **Languages · 语言**
 
@@ -144,7 +153,7 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 ![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4)
 ![Ruff](https://img.shields.io/badge/Ruff-161B22?style=flat-square&logo=ruff&logoColor=D7FF64)
 
-## 05 · Engineering Principles · 工程理念
+## 06 · Engineering Principles · 工程理念
 
 - **Measure in percentiles, under stated load.** Local, simulated and live end-to-end numbers are reported separately; no single headline figure.
 
@@ -158,7 +167,7 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 
   **数字要经得起审计。** 指标锚定官方数据，由成交独立重建并对账，残差公开。
 
-## 06 · Contact · 联系方式
+## 07 · Contact · 联系方式
 
 [![Email](https://img.shields.io/badge/Email-yutianjiang39%40gmail.com-161B22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:yutianjiang39@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-yutianjiang39-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/yutianjiang39)
