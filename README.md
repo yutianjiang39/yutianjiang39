@@ -116,7 +116,13 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 | [petl-developers/petl](https://github.com/petl-developers/petl) | ![Stars](https://img.shields.io/github/stars/petl-developers/petl?style=flat-square&color=3FB8AF&labelColor=161B22&label=%E2%98%85) | [1 merged](https://github.com/petl-developers/petl/pulls?q=is%3Apr+author%3Ayutianjiang39+is%3Amerged) · [4 in review](https://github.com/petl-developers/petl/pulls?q=is%3Apr+author%3Ayutianjiang39+is%3Aopen) | [#841](https://github.com/petl-developers/petl/pull/841) `crossjoin` no longer drops rows from one-shot inputs · 修复一次性迭代输入丢行 |
 | [pybotters/pybotters](https://github.com/pybotters/pybotters) | ![Stars](https://img.shields.io/github/stars/pybotters/pybotters?style=flat-square&color=3FB8AF&labelColor=161B22&label=%E2%98%85) | [1 merged](https://github.com/pybotters/pybotters/pulls?q=is%3Apr+author%3Ayutianjiang39+is%3Amerged) · [1 in review](https://github.com/pybotters/pybotters/pulls?q=is%3Apr+author%3Ayutianjiang39+is%3Aopen) | [#591](https://github.com/pybotters/pybotters/pull/591) order-book sorting honors a zero depth limit · 订单簿零深度上限修复 |
 
-<sub>Also contributing to Hyperliquid, Coinbase and Rust numeric libraries — [all pull requests](https://github.com/search?q=is%3Apr+author%3Ayutianjiang39+-user%3Ayutianjiang39&type=pullrequests) · 另在 Hyperliquid、Coinbase 与 Rust 数值库等项目有进行中的 PR</sub>
+**In review · 审核中**
+
+- **Hyperliquid** — [hyperliquid-python-sdk #349](https://github.com/hyperliquid-dex/hyperliquid-python-sdk/pull/349) · [nktkas/hyperliquid #204](https://github.com/nktkas/hyperliquid/pull/204) · [hypersdk #112](https://github.com/infinitefield/hypersdk/pull/112) · [hyperliquid-trading-bot #21](https://github.com/chainstacklabs/hyperliquid-trading-bot/pull/21)
+- **Brokers & exchanges · 券商与交易所** — [coinbase-advanced-py #145](https://github.com/coinbase/coinbase-advanced-py/pull/145) · [alpaca-py #932](https://github.com/alpacahq/alpaca-py/pull/932)
+- **Rust** — [rust-decimal #897](https://github.com/paupino/rust-decimal/pull/897)
+
+<sub>[All pull requests](https://github.com/search?q=is%3Apr+author%3Ayutianjiang39+-user%3Ayutianjiang39&type=pullrequests) · 全部 PR</sub>
 
 ## 05 · Technical Stack · 技术栈
 
