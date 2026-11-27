@@ -43,9 +43,9 @@ Specialized in low-latency trading infrastructure for on-chain markets, with exp
 [![Forks](https://img.shields.io/github/forks/yutianjiang39/Multisource_HL_Copy?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/network/members)
 [![Checks](https://img.shields.io/github/actions/workflow/status/yutianjiang39/Multisource_HL_Copy/public-check.yml?style=flat-square&label=checks&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/actions/workflows/public-check.yml)
 
-A multi-source copy-trading execution engine for Hyperliquid: event-driven architecture, real-time execution in Rust, multi-target following, with integrated risk controls and operational observability.
+A low-latency copy-trading engine for Hyperliquid that follows multiple sources at once, with built-in risk control.
 
-面向 Hyperliquid 的多来源跟单执行引擎：事件驱动架构、Rust 实时执行、多目标跟随，内置风险控制与运行可观测性。
+面向 Hyperliquid 的低延迟跟单引擎，同时跟随多个来源，内置风险控制。
 
 <a href="https://github.com/yutianjiang39/Multisource_HL_Copy">
   <img src="https://raw.githubusercontent.com/yutianjiang39/Multisource_HL_Copy/main/assets/performance.svg" width="720" alt="Multisource HL Copy performance summary: local submit latency p99, burst signal test and configurable target count, each with its own evidence scope. 性能摘要图，各数字的证据范围分别标注。" />
@@ -53,11 +53,12 @@ A multi-source copy-trading execution engine for Hyperliquid: event-driven archi
 
 | | |
 | --- | --- |
-| **Architecture · 架构** | Rust execution engine with a Python control and reporting plane · Rust 执行引擎 + Python 控制与报告面 |
-| **Scope · 范围** | Order lifecycle mirroring, position management, risk intervention, reporting · 委托生命周期镜像、仓位管理、风险干预、运行报告 |
-| **Evidence · 实测** | Recorded latency and load results, with their test conditions, are in the [repository README](https://github.com/yutianjiang39/Multisource_HL_Copy#readme) · 延迟与负载实测结果及测试口径见仓库 README |
+| **Architecture · 架构** | Rust execution engine, Python control plane · Rust 执行引擎 + Python 控制面 |
+| **Capabilities · 能力** | Order mirroring, position management, risk intervention, reporting · 委托镜像、仓位管理、风险干预、运行报告 |
+| **Benchmarks · 实测** | Latency and load results with test conditions in the [README](https://github.com/yutianjiang39/Multisource_HL_Copy#readme) · 延迟与负载实测及测试口径见仓库 README |
 
-**Architecture · 系统架构**
+<details>
+<summary><b>Architecture · 系统架构</b></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/multisource-hl-copy-architecture-dark.svg" />
@@ -65,11 +66,11 @@ A multi-source copy-trading execution engine for Hyperliquid: event-driven archi
   <img src="assets/multisource-hl-copy-architecture-light.svg" width="100%" alt="Multisource HL Copy architecture: source wallets send order and fill events to the Rust execution engine (order lifecycle mirroring, position following, persistent state), which places, modifies and cancels orders on Hyperliquid and receives its own order and fill updates; a deterministic risk guard can pause, cancel or flatten; a Python control plane starts, stops and configures the engine; engine and risk guard feed alerts and periodic reports. 系统架构图：来源钱包的委托与成交事件进入 Rust 执行引擎（委托生命周期镜像、仓位跟随、持久化状态），引擎在 Hyperliquid 下单、改单、撤单并接收本方回报；确定性风控可暂停、撤单、平仓；Python 控制面负责启停与配置；引擎与风控输出事件提醒与周期报告。" />
 </picture>
 
-<sub>Conceptual diagram of the public capability description; it does not show execution algorithms or parameters. 按公开能力说明绘制的示意图，不含执行算法与参数。</sub>
+<sub>Conceptual diagram; execution algorithms and parameters are not shown. 示意图，不含执行算法与参数。</sub>
 
-> Public showcase repository; the production trading implementation remains private.
->
-> 公开展示仓库，生产交易实现保持私有。
+</details>
+
+> Public showcase repository; the production implementation remains private. · 公开展示仓库，生产实现保持私有。
 
 ### [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)
 
@@ -78,24 +79,24 @@ A multi-source copy-trading execution engine for Hyperliquid: event-driven archi
 [![Last commit](https://img.shields.io/github/last-commit/yutianjiang39/Hyperliquid_Monitor?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Hyperliquid_Monitor/commits/main)
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10+-161B22?style=flat-square&logo=python&logoColor=3776AB)
 
-A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk are anchored to the official portfolio figures, reconciled against an independent mark-to-market rebuild, and delivered as a fully offline HTML report. It runs on your own machine, and public queries need no private key.
+A local-first wallet analytics tool for Hyperliquid: performance and risk metrics reconciled against official figures, delivered as an offline HTML report. No private key required.
 
-面向 Hyperliquid 的本地优先钱包分析工具：收益、回撤与风险指标锚定官方 portfolio 数据，与独立的盯市重建逐周对账，并输出完全离线的 HTML 报告。程序在本机运行，公开查询不需要私钥。
+面向 Hyperliquid 的本地优先钱包分析工具：业绩与风险指标与官方数据对账，输出离线 HTML 报告，无需私钥。
 
 | | |
 | --- | --- |
-| **Architecture · 架构** | Python pipeline with a Textual terminal UI and a CLI, a per-wallet SQLite cache, and a self-contained report · Python 数据管线 + Textual 终端界面与命令行，按钱包的 SQLite 缓存，自包含报告 |
-| **Metrics · 指标** | Returns (TWR, XIRR), risk (drawdown, Sharpe, Sortino, VaR/CVaR), trading behaviour, costs and positions · 收益（TWR、XIRR）、风险（回撤、Sharpe、Sortino、VaR/CVaR）、交易行为、成本与持仓 |
-| **Data quality · 数据质量** | Weekly reconciliation against official cumulative PnL; residuals, history gaps and the source of every number are shown in the report · 与官方累计盈亏逐周对账；残差、历史缺口与每个数字的来源都在报告中公开 |
-| **Docs · 文档** | Usage, data scope and accounting rules are in the [repository README](https://github.com/yutianjiang39/Hyperliquid_Monitor#readme) (Chinese) · 用法、数据口径与计算规则见仓库 README |
+| **Architecture · 架构** | Python pipeline, terminal UI and CLI, SQLite cache · Python 数据管线、终端界面与命令行、SQLite 缓存 |
+| **Metrics · 指标** | Returns, risk, trading behaviour, costs and positions · 收益、风险、交易行为、成本与持仓 |
+| **Data quality · 数据质量** | Reconciled with official PnL; every number traceable to its source · 与官方盈亏对账，每个数字可追溯来源 |
 
 <img src="assets/hyperliquid-monitor-overview.png" width="100%" alt="Hyperliquid Monitor report overview, generated by the built-in demo with simulated data: wallet profile tags, overall verdict, window PnL, TWR, round-trip win rate and maximum drawdown. 报告总览（内置演示，模拟数据）：钱包画像标签、综合判定、窗口盈亏、TWR、回合胜率与最大回撤。" />
 
 <img src="assets/hyperliquid-monitor-performance.png" width="100%" alt="Hyperliquid Monitor performance curve, simulated data: official equity against net deposits, deposit and withdrawal markers, and the underwater drawdown chart. 业绩曲线（模拟数据）：官方净值与净投入、出入金标记，以及水下回撤图。" />
 
-<sub>Two sections of the offline HTML report produced by `python app.py demo` — simulated data, no real wallet. 两张图取自 `python app.py demo` 生成的离线报告，数据为模拟数据，不涉及真实钱包。</sub>
+<sub>From the built-in demo report (`python app.py demo`), simulated data. 取自内置演示报告，模拟数据。</sub>
 
-**Architecture · 系统架构**
+<details>
+<summary><b>Architecture · 系统架构</b></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hyperliquid-monitor-architecture-dark.svg" />
@@ -103,9 +104,9 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
   <img src="assets/hyperliquid-monitor-architecture-light.svg" width="100%" alt="Hyperliquid Monitor architecture: the official API, the official S3 archive and local JSON / CSV files feed a collector that deduplicates into a per-wallet SQLite cache; the cache feeds metrics and a mark-to-market rebuild, which is reconciled weekly against the official portfolio figures; metrics and reconciliation produce the offline HTML report with CSV and audit files; the Textual TUI and CLI drive the collector and the report. 系统架构图：官方 API、官方 S3 归档与本地文件经采集与去重写入按钱包的 SQLite 缓存；缓存供给指标计算与盯市重建，后者与官方 portfolio 数据逐周对账；指标与对账结果生成离线 HTML 报告及 CSV / 审计文件；终端界面与命令行驱动采集与报告。" />
 </picture>
 
-> Read-only analytics: it reports on a wallet's history and never places orders.
->
-> 只读分析工具：只呈现钱包历史，不会下单。
+</details>
+
+> Read-only: it analyzes wallet history and never places orders. · 只读分析，不会下单。
 
 ## 04 · Open Source Contributions · 开源贡献
 
