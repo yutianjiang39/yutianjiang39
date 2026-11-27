@@ -25,7 +25,7 @@ Specialized in low-latency trading infrastructure for on-chain markets, with exp
 - **Role:** <ROLE / COMPANY>
 -->
 
-## 02 · Engineering Expertise · 工程能力
+## 02 · Expertise & Stack · 工程能力与技术栈
 
 | | |
 | --- | --- |
@@ -34,6 +34,31 @@ Specialized in low-latency trading infrastructure for on-chain markets, with exp
 | **Trading Systems** | End-to-end execution across exchanges and brokers · 跨交易所与券商的端到端交易执行 |
 | **Performance** | Low-latency design and optimization · 低延迟设计与优化 |
 | **Reliability** | Systems that stay correct under failure · 故障下依然正确运行的系统 |
+
+![Rust](https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=DEA584)
+![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB)
+![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25)
+
+![Tokio](https://img.shields.io/badge/Tokio-161B22?style=flat-square)
+![Axum](https://img.shields.io/badge/Axum-161B22?style=flat-square)
+![PyO3](https://img.shields.io/badge/PyO3-161B22?style=flat-square)
+![reqwest](https://img.shields.io/badge/reqwest-161B22?style=flat-square)
+![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square)
+
+![Textual](https://img.shields.io/badge/Textual-161B22?style=flat-square)
+![Rich](https://img.shields.io/badge/Rich-161B22?style=flat-square)
+![pytest](https://img.shields.io/badge/pytest-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC)
+![Apache ECharts](https://img.shields.io/badge/Apache_ECharts-161B22?style=flat-square&logo=apacheecharts&logoColor=AA344D)
+![Tabler](https://img.shields.io/badge/Tabler-161B22?style=flat-square)
+
+![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-161B22?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624)
+![systemd](https://img.shields.io/badge/systemd-161B22?style=flat-square)
+![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=flat-square&logo=githubactions&logoColor=2088FF)
+![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4)
+![Ruff](https://img.shields.io/badge/Ruff-161B22?style=flat-square&logo=ruff&logoColor=D7FF64)
 
 ## 03 · Featured Projects · 精选项目
 
@@ -125,42 +150,7 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 
 <sub>[All pull requests](https://github.com/search?q=is%3Apr+author%3Ayutianjiang39+-user%3Ayutianjiang39&type=pullrequests) · 全部 PR</sub>
 
-## 05 · Technical Stack · 技术栈
-
-**Languages · 语言**
-
-![Rust](https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=DEA584)
-![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB)
-![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25)
-
-**Rust ecosystem · Rust 生态**
-
-![Tokio](https://img.shields.io/badge/Tokio-161B22?style=flat-square)
-![Axum](https://img.shields.io/badge/Axum-161B22?style=flat-square)
-![PyO3](https://img.shields.io/badge/PyO3-161B22?style=flat-square)
-![reqwest](https://img.shields.io/badge/reqwest-161B22?style=flat-square)
-![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square)
-
-**Python ecosystem · Python 生态**
-
-![Textual](https://img.shields.io/badge/Textual-161B22?style=flat-square)
-![Rich](https://img.shields.io/badge/Rich-161B22?style=flat-square)
-![pytest](https://img.shields.io/badge/pytest-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC)
-![Apache ECharts](https://img.shields.io/badge/Apache_ECharts-161B22?style=flat-square&logo=apacheecharts&logoColor=AA344D)
-![Tabler](https://img.shields.io/badge/Tabler-161B22?style=flat-square)
-
-**Data & Operations · 数据与运维**
-
-![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9)
-![Amazon S3](https://img.shields.io/badge/Amazon_S3-161B22?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624)
-![systemd](https://img.shields.io/badge/systemd-161B22?style=flat-square)
-![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=flat-square&logo=githubactions&logoColor=2088FF)
-![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4)
-![Ruff](https://img.shields.io/badge/Ruff-161B22?style=flat-square&logo=ruff&logoColor=D7FF64)
-
-## 06 · Engineering Principles · 工程理念
+## 05 · Engineering Principles · 工程理念
 
 - **Correctness first, then speed.** A fast system that is wrong is still wrong.
 
@@ -178,7 +168,7 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 
   **在上游修复。** 依赖库有问题，就从源头修好并回馈社区。
 
-## 07 · Contact · 联系方式
+## 06 · Contact · 联系方式
 
 [![Email](https://img.shields.io/badge/Email-yutianjiang39%40gmail.com-161B22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:yutianjiang39@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-yutianjiang39-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/yutianjiang39)
