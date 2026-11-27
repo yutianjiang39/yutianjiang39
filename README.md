@@ -43,9 +43,9 @@ Specialized in low-latency trading infrastructure for on-chain markets, with exp
 [![Forks](https://img.shields.io/github/forks/yutianjiang39/Multisource_HL_Copy?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/network/members)
 [![Checks](https://img.shields.io/github/actions/workflow/status/yutianjiang39/Multisource_HL_Copy/public-check.yml?style=flat-square&label=checks&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/actions/workflows/public-check.yml)
 
-A low-latency copy-trading engine for Hyperliquid that follows multiple sources at once, with built-in risk control.
+A low-latency, multi-source copy-trading engine for Hyperliquid, with risk control built into its core.
 
-面向 Hyperliquid 的低延迟跟单引擎，同时跟随多个来源，内置风险控制。
+为 Hyperliquid 打造的低延迟多源跟单引擎，风控内建于核心。
 
 <a href="https://github.com/yutianjiang39/Multisource_HL_Copy">
   <img src="https://raw.githubusercontent.com/yutianjiang39/Multisource_HL_Copy/main/assets/performance.svg" width="720" alt="Multisource HL Copy performance summary: local submit latency p99, burst signal test and configurable target count, each with its own evidence scope. 性能摘要图，各数字的证据范围分别标注。" />
