@@ -133,7 +133,7 @@ def build(theme):
 
 def main():
     for theme in THEMES:
-        path = ASSETS / f"multisource-hl-copy-performance-{theme}.svg"
+        path = ASSETS / f"multisource-hl-copy-highlight-{theme}.svg"
         path.write_text(build(theme), encoding="utf-8")
         print(f"wrote {path.relative_to(ASSETS.parent)}")
 
