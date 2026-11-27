@@ -162,17 +162,21 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 
 ## 06 · Engineering Principles · 工程理念
 
-- **Measure, don't guess.** Performance claims rest on reproducible measurement under real conditions.
+- **Correctness first, then speed.** A fast system that is wrong is still wrong.
 
-  **用数据说话。** 性能结论建立在真实条件下可复现的测量之上。
+  **先正确，再求快。** 跑得再快，结果错了也毫无意义。
 
-- **Safety by design.** Risk control is built into the system, not bolted on afterwards.
+- **Keep it simple.** Fewer moving parts mean fewer surprises in production.
 
-  **安全内建于设计。** 风控是系统的一部分，而不是事后补丁。
+  **保持简单。** 组件越少，线上的意外就越少。
 
-- **Results must be verifiable.** Every number can be traced back and checked against an independent source.
+- **Measure, don't guess.** Decisions follow data, not intuition.
 
-  **结果必须可验证。** 每个数字都可追溯，并能与独立来源核对。
+  **用数据说话。** 决策依据数据，而非直觉。
+
+- **Fix it upstream.** When a library is wrong, fix it at the source and give back.
+
+  **在上游修复。** 依赖库有问题，就从源头修好并回馈社区。
 
 ## 07 · Contact · 联系方式
 
