@@ -14,7 +14,7 @@
 
 ---
 
-## 01 · Introduction · 简介
+## 🧭 01 · Introduction · 简介
 
 Specialized in low-latency trading infrastructure for on-chain markets, with expertise in Rust execution engines and Python control, operations and analytics tooling. Author and maintainer of [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy) and [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor); contributor to open-source trading and data libraries including [pybotters](https://github.com/pybotters/pybotters), [hypersdk](https://github.com/infinitefield/hypersdk) and [petl](https://github.com/petl-developers/petl). Currently focused on multi-source execution reliability on Hyperliquid and performance analytics reconciled against official figures.
 
@@ -27,21 +27,21 @@ Specialized in low-latency trading infrastructure for on-chain markets, with exp
 
 <br>
 
-## 02 · Expertise & Stack · 工程能力与技术栈
+## 🛠️ 02 · Expertise & Stack · 工程能力与技术栈
 
 | | |
 | --- | --- |
-| **Rust** | High-performance, concurrent systems · 高性能并发系统<br>![Rust](https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=DEA584) ![Axum](https://img.shields.io/badge/Axum-161B22?style=flat-square) ![PyO3](https://img.shields.io/badge/PyO3-161B22?style=flat-square) ![reqwest](https://img.shields.io/badge/reqwest-161B22?style=flat-square) |
-| **Python** | Tooling, automation and data analysis · 工具、自动化与数据分析<br>![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB) ![Textual](https://img.shields.io/badge/Textual-161B22?style=flat-square) ![Rich](https://img.shields.io/badge/Rich-161B22?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC) ![Ruff](https://img.shields.io/badge/Ruff-161B22?style=flat-square&logo=ruff&logoColor=D7FF64) ![Apache ECharts](https://img.shields.io/badge/Apache_ECharts-161B22?style=flat-square&logo=apacheecharts&logoColor=AA344D) ![Tabler](https://img.shields.io/badge/Tabler-161B22?style=flat-square) |
-| **Trading Systems** | End-to-end execution across exchanges and brokers · 跨交易所与券商的端到端交易执行<br>![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9) ![Amazon S3](https://img.shields.io/badge/Amazon_S3-161B22?style=flat-square) ![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4) |
-| **Performance** | Low-latency design and optimization · 低延迟设计与优化<br>![Tokio](https://img.shields.io/badge/Tokio-161B22?style=flat-square) |
-| **Reliability** | Systems that stay correct under failure · 故障下依然正确运行的系统<br>![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624) ![systemd](https://img.shields.io/badge/systemd-161B22?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25) ![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=flat-square&logo=githubactions&logoColor=2088FF) |
+| 🦀 **Rust** | High-performance, concurrent systems · 高性能并发系统<br>![Rust](https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=DEA584) ![Axum](https://img.shields.io/badge/Axum-161B22?style=flat-square) ![PyO3](https://img.shields.io/badge/PyO3-161B22?style=flat-square) ![reqwest](https://img.shields.io/badge/reqwest-161B22?style=flat-square) |
+| 🐍 **Python** | Tooling, automation and data analysis · 工具、自动化与数据分析<br>![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB) ![Textual](https://img.shields.io/badge/Textual-161B22?style=flat-square) ![Rich](https://img.shields.io/badge/Rich-161B22?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC) ![Ruff](https://img.shields.io/badge/Ruff-161B22?style=flat-square&logo=ruff&logoColor=D7FF64) ![Apache ECharts](https://img.shields.io/badge/Apache_ECharts-161B22?style=flat-square&logo=apacheecharts&logoColor=AA344D) ![Tabler](https://img.shields.io/badge/Tabler-161B22?style=flat-square) |
+| 📈 **Trading Systems** | End-to-end execution across exchanges and brokers · 跨交易所与券商的端到端交易执行<br>![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9) ![Amazon S3](https://img.shields.io/badge/Amazon_S3-161B22?style=flat-square) ![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4) |
+| ⚡ **Performance** | Low-latency design and optimization · 低延迟设计与优化<br>![Tokio](https://img.shields.io/badge/Tokio-161B22?style=flat-square) |
+| 🛡️ **Reliability** | Systems that stay correct under failure · 故障下依然正确运行的系统<br>![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624) ![systemd](https://img.shields.io/badge/systemd-161B22?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25) ![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=flat-square&logo=githubactions&logoColor=2088FF) |
 
 <br>
 
-## 03 · Featured Projects · 精选项目
+## 🚀 03 · Featured Projects · 精选项目
 
-### [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy)
+### ⚡ [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy)
 
 [![Stars](https://img.shields.io/github/stars/yutianjiang39/Multisource_HL_Copy?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy)
 [![Forks](https://img.shields.io/github/forks/yutianjiang39/Multisource_HL_Copy?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Multisource_HL_Copy/network/members)
@@ -56,7 +56,7 @@ A low-latency, multi-source copy-trading engine for Hyperliquid, with risk contr
 </a>
 
 <details>
-<summary><h4>Architecture · 系统架构（点击展开）</h4></summary>
+<summary><h4>🏗️ Architecture · 系统架构（点击展开）</h4></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/multisource-hl-copy-architecture-dark.svg" />
@@ -72,7 +72,7 @@ A low-latency, multi-source copy-trading engine for Hyperliquid, with risk contr
 
 ---
 
-### [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)
+### 📊 [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)
 
 [![Stars](https://img.shields.io/github/stars/yutianjiang39/Hyperliquid_Monitor?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Hyperliquid_Monitor)
 [![Forks](https://img.shields.io/github/forks/yutianjiang39/Hyperliquid_Monitor?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Hyperliquid_Monitor/network/members)
@@ -91,7 +91,7 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 <sub>From the built-in demo report (`python app.py demo`), simulated data. 取自内置演示报告，模拟数据。</sub>
 
 <details>
-<summary><h4>Architecture · 系统架构（点击展开）</h4></summary>
+<summary><h4>🏗️ Architecture · 系统架构（点击展开）</h4></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hyperliquid-monitor-architecture-dark.svg" />
@@ -103,7 +103,7 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 
 <br>
 
-## 04 · Open Source Contributions · 开源贡献
+## 🌐 04 · Open Source Contributions · 开源贡献
 
 | Project · 项目 | Stars | Contributions · 贡献 | Highlight · 代表作 |
 | --- | --- | --- | --- |
@@ -111,7 +111,7 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 | [pybotters/pybotters](https://github.com/pybotters/pybotters) | ![Stars](https://img.shields.io/github/stars/pybotters/pybotters?style=flat-square&color=3FB8AF&labelColor=161B22&label=%E2%98%85) | [2 merged](https://github.com/pybotters/pybotters/pulls?q=is%3Apr+author%3Ayutianjiang39+is%3Amerged) · [3 in review](https://github.com/pybotters/pybotters/pulls?q=is%3Apr+author%3Ayutianjiang39+is%3Aopen) | [#593](https://github.com/pybotters/pybotters/pull/593) cancelled DataStore waiters are released on idle stores · 空闲 DataStore 释放已取消的等待者<br>[#591](https://github.com/pybotters/pybotters/pull/591) order-book sorting honors a zero depth limit · 订单簿零深度上限修复 |
 | [infinitefield/hypersdk](https://github.com/infinitefield/hypersdk) | ![Stars](https://img.shields.io/github/stars/infinitefield/hypersdk?style=flat-square&color=3FB8AF&labelColor=161B22&label=%E2%98%85) | [1 merged](https://github.com/infinitefield/hypersdk/pulls?q=is%3Apr+author%3Ayutianjiang39+is%3Amerged) | [#112](https://github.com/infinitefield/hypersdk/pull/112) Uniswap V3 positions at the upper tick are treated as out of range · Uniswap V3 仓位上边界区间判定修复 |
 
-**In review · 审核中**
+**⏳ In review · 审核中**
 
 - **Hyperliquid** — [hyperliquid-python-sdk #349](https://github.com/hyperliquid-dex/hyperliquid-python-sdk/pull/349) · [nktkas/hyperliquid #204](https://github.com/nktkas/hyperliquid/pull/204) · [hyperliquid-trading-bot #21](https://github.com/chainstacklabs/hyperliquid-trading-bot/pull/21)
 - **Trading engines · 交易引擎** — [nautilus_trader #5771](https://github.com/nautechsystems/nautilus_trader/pull/5771)
@@ -123,27 +123,27 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 
 <br>
 
-## 05 · Engineering Principles · 工程理念
+## 📐 05 · Engineering Principles · 工程理念
 
-- **Correctness first, then speed.** A fast system that is wrong is still wrong.
+- 🎯 **Correctness first, then speed.** A fast system that is wrong is still wrong.
 
   **先正确，再求快。** 跑得再快，结果错了也毫无意义。
 
-- **Keep it simple.** Fewer moving parts mean fewer surprises in production.
+- ✂️ **Keep it simple.** Fewer moving parts mean fewer surprises in production.
 
   **保持简单。** 组件越少，线上的意外就越少。
 
-- **Measure, don't guess.** Decisions follow data, not intuition.
+- 📏 **Measure, don't guess.** Decisions follow data, not intuition.
 
   **用数据说话。** 决策依据数据，而非直觉。
 
-- **Fix it upstream.** When a library is wrong, fix it at the source and give back.
+- 🔧 **Fix it upstream.** When a library is wrong, fix it at the source and give back.
 
   **在上游修复。** 依赖库有问题，就从源头修好并回馈社区。
 
 <br>
 
-## 06 · Contact · 联系方式
+## 📬 06 · Contact · 联系方式
 
 [![Email](https://img.shields.io/badge/Email-yutianjiang39%40gmail.com-161B22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:yutianjiang39@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-yutianjiang39-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/yutianjiang39)
