@@ -136,11 +136,6 @@ A local-first wallet analytics tool for Hyperliquid: performance and risk metric
 [![Email](https://img.shields.io/badge/Email-yutianjiang39%40gmail.com-161B22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:yutianjiang39@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-yutianjiang39-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/yutianjiang39)
 
-- **Email** — [yutianjiang39@gmail.com](mailto:yutianjiang39@gmail.com) for roles, collaboration and technical discussion · 工作机会、合作与技术交流请发邮件
-
-- **Project questions** — open an issue in the relevant repository: [Multisource HL Copy](https://github.com/yutianjiang39/Multisource_HL_Copy/issues) · [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor/issues) · 项目相关问题请在对应仓库提 issue
-- **Security reports** — see [SECURITY.md](https://github.com/yutianjiang39/Multisource_HL_Copy/blob/main/SECURITY.md) · 安全问题见 SECURITY.md
-
 <!-- TODO(联系方式占位 / contact placeholders) — 填写后取消注释 / uncomment after filling in
 - **LinkedIn** — <URL>
 - **Website** — <URL>
