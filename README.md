@@ -162,17 +162,17 @@ A local-first wallet analytics tool for Hyperliquid: returns, drawdown and risk 
 
 ## 06 · Engineering Principles · 工程理念
 
-- **Measure in percentiles, under stated load.** Local, simulated and live end-to-end numbers are reported separately; no single headline figure.
+- **Measure, don't guess.** Performance claims rest on reproducible measurement under real conditions.
 
-  **按分位数、在明确负载下测量。** 本地、模拟与实盘端到端的数字分开呈现，不用单一峰值概括。
+  **用数据说话。** 性能结论建立在真实条件下可复现的测量之上。
 
-- **Risk control is architecture.** Guards are deterministic, state survives a restart, and every intervention leaves an auditable record.
+- **Safety by design.** Risk control is built into the system, not bolted on afterwards.
 
-  **风控属于架构本身。** 风控规则是确定性的，状态能在重启后恢复，每次干预都留下可审计的记录。
+  **安全内建于设计。** 风控是系统的一部分，而不是事后补丁。
 
-- **Audit the numbers.** Metrics are anchored to the venue's official figures, rebuilt independently from fills, and reconciled with the residuals shown.
+- **Results must be verifiable.** Every number can be traced back and checked against an independent source.
 
-  **数字要经得起审计。** 指标锚定官方数据，由成交独立重建并对账，残差公开。
+  **结果必须可验证。** 每个数字都可追溯，并能与独立来源核对。
 
 ## 07 · Contact · 联系方式
 
