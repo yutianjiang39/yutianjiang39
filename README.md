@@ -56,7 +56,7 @@ A low-latency, multi-source copy-trading engine for Hyperliquid, with risk contr
 </a>
 
 <details>
-<summary><h4>Architecture · 系统架构</h4></summary>
+<summary><h4>Architecture · 系统架构（点击展开）</h4></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/multisource-hl-copy-architecture-dark.svg" />
@@ -91,7 +91,7 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 <sub>From the built-in demo report (`python app.py demo`), simulated data. 取自内置演示报告，模拟数据。</sub>
 
 <details>
-<summary><h4>Architecture · 系统架构</h4></summary>
+<summary><h4>Architecture · 系统架构（点击展开）</h4></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hyperliquid-monitor-architecture-dark.svg" />
