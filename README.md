@@ -52,11 +52,7 @@ A low-latency, multi-source copy-trading engine for Hyperliquid, with risk contr
 为 Hyperliquid 打造的低延迟多源跟单引擎，风控内建于核心。
 
 <a href="https://github.com/yutianjiang39/Multisource_HL_Copy">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/multisource-hl-copy-highlight-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/multisource-hl-copy-highlight-light.svg" />
-    <img src="assets/multisource-hl-copy-highlight-light.svg" width="100%" alt="Multisource HL Copy performance: local submit latency p99 23 ms (p50 14 ms), two-source signal bursts of 150 per second, up to 8 targets followed into one engine. 性能概览：本地提交延迟 p99 23 ms（p50 14 ms）、双来源信号脉冲 150 次/秒、最多 8 个目标汇入同一引擎。" />
-  </picture>
+  <img src="assets/multisource-hl-copy-overview.png" width="100%" alt="Multisource HL Copy overview: source wallets send order and fill events to the Rust execution engine (order lifecycle mirroring, position following, persistent state) under a Python control plane; the engine places, modifies and cancels orders on Hyperliquid and receives its own updates; a risk guard can pause, cancel or flatten; alerts and periodic reports. Up to 8 targets in parallel, 150/s signal bursts, local submit p99 23 ms (p50 14 ms). 系统概览：来源钱包、Rust 执行引擎、Python 控制面、Hyperliquid、确定性风控与周期报告；最多 8 个目标、信号脉冲 150 次/秒、本地提交 p99 23 ms（p50 14 ms）。" />
 </a>
 
 <details>
