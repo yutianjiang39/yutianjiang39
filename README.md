@@ -25,6 +25,8 @@ Specialized in low-latency trading infrastructure for on-chain markets, with exp
 - **Role:** <ROLE / COMPANY>
 -->
 
+<br>
+
 ## 02 · Expertise & Stack · 工程能力与技术栈
 
 | | |
@@ -34,6 +36,8 @@ Specialized in low-latency trading infrastructure for on-chain markets, with exp
 | **Trading Systems** | End-to-end execution across exchanges and brokers · 跨交易所与券商的端到端交易执行<br>![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9) ![Amazon S3](https://img.shields.io/badge/Amazon_S3-161B22?style=flat-square) ![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4) |
 | **Performance** | Low-latency design and optimization · 低延迟设计与优化<br>![Tokio](https://img.shields.io/badge/Tokio-161B22?style=flat-square) |
 | **Reliability** | Systems that stay correct under failure · 故障下依然正确运行的系统<br>![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624) ![systemd](https://img.shields.io/badge/systemd-161B22?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25) ![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=flat-square&logo=githubactions&logoColor=2088FF) |
+
+<br>
 
 ## 03 · Featured Projects · 精选项目
 
@@ -66,6 +70,8 @@ A low-latency, multi-source copy-trading engine for Hyperliquid, with risk contr
 
 > Public showcase repository; the production implementation remains private. · 公开展示仓库，生产实现保持私有。
 
+---
+
 ### [Hyperliquid Monitor](https://github.com/yutianjiang39/Hyperliquid_Monitor)
 
 [![Stars](https://img.shields.io/github/stars/yutianjiang39/Hyperliquid_Monitor?style=flat-square&color=3FB8AF&labelColor=161B22)](https://github.com/yutianjiang39/Hyperliquid_Monitor)
@@ -95,6 +101,8 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 
 </details>
 
+<br>
+
 ## 04 · Open Source Contributions · 开源贡献
 
 | Project · 项目 | Stars | Contributions · 贡献 | Highlight · 代表作 |
@@ -113,6 +121,8 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 
 <sub>[All pull requests](https://github.com/search?q=is%3Apr+author%3Ayutianjiang39+-user%3Ayutianjiang39&type=pullrequests) · 全部 PR</sub>
 
+<br>
+
 ## 05 · Engineering Principles · 工程理念
 
 - **Correctness first, then speed.** A fast system that is wrong is still wrong.
@@ -130,6 +140,8 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 - **Fix it upstream.** When a library is wrong, fix it at the source and give back.
 
   **在上游修复。** 依赖库有问题，就从源头修好并回馈社区。
+
+<br>
 
 ## 06 · Contact · 联系方式
 
