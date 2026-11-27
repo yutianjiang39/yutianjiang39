@@ -52,7 +52,11 @@ A low-latency, multi-source copy-trading engine for Hyperliquid, with risk contr
 为 Hyperliquid 打造的低延迟多源跟单引擎，风控内建于核心。
 
 <a href="https://github.com/yutianjiang39/Multisource_HL_Copy">
-  <img src="https://raw.githubusercontent.com/yutianjiang39/Multisource_HL_Copy/main/assets/performance.svg" width="720" alt="Multisource HL Copy performance summary: local submit latency p99, burst signal test and configurable target count, each with its own evidence scope. 性能摘要图，各数字的证据范围分别标注。" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/multisource-hl-copy-performance-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/multisource-hl-copy-performance-light.svg" />
+    <img src="assets/multisource-hl-copy-performance-light.svg" width="100%" alt="Multisource HL Copy performance: local submit latency p99 23 ms (p50 14 ms), two-source signal bursts of 150 per second, up to 8 targets followed into one engine. 性能概览：本地提交延迟 p99 23 ms（p50 14 ms）、双来源信号脉冲 150 次/秒、最多 8 个目标汇入同一引擎。" />
+  </picture>
 </a>
 
 <details>
