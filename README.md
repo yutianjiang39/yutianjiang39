@@ -29,36 +29,11 @@ Specialized in low-latency trading infrastructure for on-chain markets, with exp
 
 | | |
 | --- | --- |
-| **Rust** | High-performance, concurrent systems · 高性能并发系统 |
-| **Python** | Tooling, automation and data analysis · 工具、自动化与数据分析 |
-| **Trading Systems** | End-to-end execution across exchanges and brokers · 跨交易所与券商的端到端交易执行 |
-| **Performance** | Low-latency design and optimization · 低延迟设计与优化 |
-| **Reliability** | Systems that stay correct under failure · 故障下依然正确运行的系统 |
-
-![Rust](https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=DEA584)
-![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB)
-![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25)
-
-![Tokio](https://img.shields.io/badge/Tokio-161B22?style=flat-square)
-![Axum](https://img.shields.io/badge/Axum-161B22?style=flat-square)
-![PyO3](https://img.shields.io/badge/PyO3-161B22?style=flat-square)
-![reqwest](https://img.shields.io/badge/reqwest-161B22?style=flat-square)
-![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square)
-
-![Textual](https://img.shields.io/badge/Textual-161B22?style=flat-square)
-![Rich](https://img.shields.io/badge/Rich-161B22?style=flat-square)
-![pytest](https://img.shields.io/badge/pytest-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC)
-![Apache ECharts](https://img.shields.io/badge/Apache_ECharts-161B22?style=flat-square&logo=apacheecharts&logoColor=AA344D)
-![Tabler](https://img.shields.io/badge/Tabler-161B22?style=flat-square)
-
-![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9)
-![Amazon S3](https://img.shields.io/badge/Amazon_S3-161B22?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624)
-![systemd](https://img.shields.io/badge/systemd-161B22?style=flat-square)
-![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=flat-square&logo=githubactions&logoColor=2088FF)
-![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4)
-![Ruff](https://img.shields.io/badge/Ruff-161B22?style=flat-square&logo=ruff&logoColor=D7FF64)
+| **Rust** | High-performance, concurrent systems · 高性能并发系统<br>![Rust](https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=DEA584) ![Axum](https://img.shields.io/badge/Axum-161B22?style=flat-square) ![PyO3](https://img.shields.io/badge/PyO3-161B22?style=flat-square) ![reqwest](https://img.shields.io/badge/reqwest-161B22?style=flat-square) |
+| **Python** | Tooling, automation and data analysis · 工具、自动化与数据分析<br>![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB) ![Textual](https://img.shields.io/badge/Textual-161B22?style=flat-square) ![Rich](https://img.shields.io/badge/Rich-161B22?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-161B22?style=flat-square&logo=pytest&logoColor=0A9EDC) ![Ruff](https://img.shields.io/badge/Ruff-161B22?style=flat-square&logo=ruff&logoColor=D7FF64) ![Apache ECharts](https://img.shields.io/badge/Apache_ECharts-161B22?style=flat-square&logo=apacheecharts&logoColor=AA344D) ![Tabler](https://img.shields.io/badge/Tabler-161B22?style=flat-square) |
+| **Trading Systems** | End-to-end execution across exchanges and brokers · 跨交易所与券商的端到端交易执行<br>![WebSocket](https://img.shields.io/badge/WebSocket-161B22?style=flat-square) ![SQLite](https://img.shields.io/badge/SQLite-161B22?style=flat-square&logo=sqlite&logoColor=4FA3D9) ![Amazon S3](https://img.shields.io/badge/Amazon_S3-161B22?style=flat-square) ![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-161B22?style=flat-square&logo=telegram&logoColor=26A5E4) |
+| **Performance** | Low-latency design and optimization · 低延迟设计与优化<br>![Tokio](https://img.shields.io/badge/Tokio-161B22?style=flat-square) |
+| **Reliability** | Systems that stay correct under failure · 故障下依然正确运行的系统<br>![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624) ![systemd](https://img.shields.io/badge/systemd-161B22?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-161B22?style=flat-square&logo=gnubash&logoColor=4EAA25) ![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=flat-square&logo=githubactions&logoColor=2088FF) |
 
 ## 03 · Featured Projects · 精选项目
 
