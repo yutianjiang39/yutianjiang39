@@ -1,60 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">
 <title id="title">Multisource HL Copy · Performance · 性能</title>
 <desc id="desc">Multisource HL Copy performance: local submission p99 23 ms and p50 14 ms over 1,765 mainnet orders; two-source signal bursts of 150 per second in three 5-second bursts per run; up to 8 configurable targets converging into one engine; 3 targets run about 144 hours live.</desc>
-<rect x="0.5" y="0.5" width="1199" height="469" rx="14" fill="#0D1117" stroke="#30363D"/>
-<rect x="40" y="33" width="4" height="14" rx="2" fill="#3FB8AF"/>
-<text x="54.0" y="45.0" font-size="12" font-weight="700" fill="#3FB8AF" text-anchor="start">MULTISOURCE HL COPY</text>
-<text x="232.0" y="45.0" font-size="12.5" font-weight="400" fill="#9198A1" text-anchor="start">Performance · 性能</text>
-<rect x="40" y="84" width="357" height="300" rx="12" fill="#161B22" stroke="#3A424B"/>
-<rect x="421" y="84" width="357" height="300" rx="12" fill="#161B22" stroke="#3A424B"/>
-<rect x="802" y="84" width="357" height="300" rx="12" fill="#161B22" stroke="#3A424B"/>
-<text x="64.0" y="176.0" font-size="64" font-weight="700" fill="#E6EDF3" text-anchor="start">23</text>
-<text x="144.0" y="176.0" font-size="20" font-weight="500" fill="#3FB8AF" text-anchor="start">ms p99</text>
-<rect x="70" y="254" width="297" height="10" rx="5" fill="#0D1117" stroke="#3A424B"/>
-<rect x="70" y="254" width="227.7" height="10" rx="5" fill="#256D68"/>
-<rect x="70" y="254" width="138.6" height="10" rx="5" fill="#3FB8AF"/>
-<text x="70.0" y="289.0" font-size="11" font-weight="400" fill="#9198A1" text-anchor="middle">0</text>
-<text x="169.0" y="289.0" font-size="11" font-weight="400" fill="#9198A1" text-anchor="middle">10</text>
-<text x="268.0" y="289.0" font-size="11" font-weight="400" fill="#9198A1" text-anchor="middle">20</text>
-<text x="367.0" y="289.0" font-size="11" font-weight="400" fill="#9198A1" text-anchor="middle">30</text>
-<circle cx="208.6" cy="259" r="7" fill="#0D1117" stroke="#3FB8AF" stroke-width="3"/>
-<text x="208.6" y="241.0" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">p50 14</text>
-<circle cx="297.7" cy="259" r="7" fill="#0D1117" stroke="#3FB8AF" stroke-width="3"/>
-<text x="297.7" y="241.0" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">p99 23</text>
-<text x="64.0" y="360.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="start">Local submit latency · 本地提交延迟</text>
-<text x="445.0" y="176.0" font-size="64" font-weight="700" fill="#E6EDF3" text-anchor="start">150</text>
-<text x="563.0" y="176.0" font-size="20" font-weight="500" fill="#3FB8AF" text-anchor="start">signals/s</text>
-<polygon points="451.0,299.0 472.2,299.0 478.2,209.0 508.6,209.0 514.6,299.0 557.1,299.0 563.1,209.0 593.5,209.0 599.5,299.0 641.9,299.0 647.9,209.0 678.4,209.0 684.4,299.0 748.0,299.0 748.0,299 451.0,299" fill="#0F2422"/>
-<polyline points="451.0,299.0 472.2,299.0 478.2,209.0 508.6,209.0 514.6,299.0 557.1,299.0 563.1,209.0 593.5,209.0 599.5,299.0 641.9,299.0 647.9,209.0 678.4,209.0 684.4,299.0 748.0,299.0" fill="none" stroke="#3FB8AF" stroke-width="2.5" stroke-linejoin="round"/>
-<line x1="451" y1="299" x2="748" y2="299" stroke="#3A424B"/>
-<text x="493.4" y="321.0" font-size="11" font-weight="400" fill="#9198A1" text-anchor="middle">5 s</text>
-<text x="578.3" y="321.0" font-size="11" font-weight="400" fill="#9198A1" text-anchor="middle">5 s</text>
-<text x="663.1" y="321.0" font-size="11" font-weight="400" fill="#9198A1" text-anchor="middle">5 s</text>
-<text x="445.0" y="360.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="start">Two-source bursts · 双来源信号脉冲</text>
-<text x="826.0" y="176.0" font-size="64" font-weight="700" fill="#E6EDF3" text-anchor="start">8</text>
-<text x="872.0" y="176.0" font-size="20" font-weight="500" fill="#3FB8AF" text-anchor="start">targets</text>
-<path d="M859.0,204.0 C942.0,204.0 930.5,259 994.5,259" fill="none" stroke="#256D68" stroke-width="1.5"/>
-<circle cx="852.0" cy="204.0" r="7" fill="#3FB8AF"/>
-<path d="M859.0,219.7 C942.0,219.7 930.5,259 994.5,259" fill="none" stroke="#256D68" stroke-width="1.5"/>
-<circle cx="852.0" cy="219.7" r="7" fill="#3FB8AF"/>
-<path d="M859.0,235.4 C942.0,235.4 930.5,259 994.5,259" fill="none" stroke="#256D68" stroke-width="1.5"/>
-<circle cx="852.0" cy="235.4" r="7" fill="#3FB8AF"/>
-<path d="M859.0,251.1 C942.0,251.1 930.5,259 994.5,259" fill="none" stroke="#256D68" stroke-width="1.5"/>
-<circle cx="852.0" cy="251.1" r="7" fill="#3FB8AF"/>
-<path d="M859.0,266.9 C942.0,266.9 930.5,259 994.5,259" fill="none" stroke="#256D68" stroke-width="1.5"/>
-<circle cx="852.0" cy="266.9" r="7" fill="#3FB8AF"/>
-<path d="M859.0,282.6 C942.0,282.6 930.5,259 994.5,259" fill="none" stroke="#256D68" stroke-width="1.5"/>
-<circle cx="852.0" cy="282.6" r="7" fill="#3FB8AF"/>
-<path d="M859.0,298.3 C942.0,298.3 930.5,259 994.5,259" fill="none" stroke="#256D68" stroke-width="1.5"/>
-<circle cx="852.0" cy="298.3" r="7" fill="#3FB8AF"/>
-<path d="M859.0,314.0 C942.0,314.0 930.5,259 994.5,259" fill="none" stroke="#256D68" stroke-width="1.5"/>
-<circle cx="852.0" cy="314.0" r="7" fill="#3FB8AF"/>
-<circle cx="1020.5" cy="259" r="26" fill="#0D1117" stroke="#3FB8AF" stroke-width="3"/>
-<path d="M1014.5,248 L1030.5,259 L1014.5,270 Z" fill="#3FB8AF"/>
-<line x1="1050.5" y1="259" x2="1112.5" y2="259" stroke="#8B949E" stroke-width="2"/>
-<path d="M1112.5,253 L1122.5,259 L1112.5,265 Z" fill="#8B949E"/>
-<text x="1086.5" y="247.0" font-size="12" font-weight="700" fill="#9198A1" text-anchor="middle">HL</text>
-<text x="826.0" y="360.0" font-size="15" font-weight="600" fill="#E6EDF3" text-anchor="start">Multi-source following · 多来源跟随</text>
-<text x="40.0" y="418.0" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">p99: local submission, 1,765 mainnet orders  ·  Bursts: 3 × 5 s per run, 10 runs, not sustained  ·  8: configured limit  ·  3 targets ≈ 144 h live</text>
-<text x="40.0" y="440.0" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">p99 仅为本地提交；脉冲为短时峰值，非持续吞吐；8 为配置上限；3 个目标约 144 小时实盘</text>
+<defs><linearGradient id="num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6EDF3"/><stop offset="1" stop-color="#7CE0D6"/></linearGradient><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7CE0D6"/><stop offset="1" stop-color="#2A9D94"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3FB8AF" stop-opacity="0.35"/><stop offset="1" stop-color="#3FB8AF" stop-opacity="0"/></linearGradient><linearGradient id="wire" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FB8AF" stop-opacity="0.25"/><stop offset="1" stop-color="#3FB8AF" stop-opacity="0.9"/></linearGradient><linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A2129"/><stop offset="1" stop-color="#12171E"/></linearGradient><radialGradient id="halo"><stop offset="0" stop-color="#3FB8AF" stop-opacity="0.45"/><stop offset="1" stop-color="#3FB8AF" stop-opacity="0"/></radialGradient><filter id="soft" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.35"/></filter><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter></defs>
+<rect x="0.5" y="0.5" width="1199" height="479" rx="16" fill="#0D1117" stroke="#30363D"/>
+<rect x="40" y="38" width="4" height="18" rx="2" fill="#3FB8AF"/>
+<text x="54.0" y="53.0" font-size="13" font-weight="700" fill="#3FB8AF" text-anchor="start" letter-spacing="1.4">MULTISOURCE HL COPY</text>
+<text x="1160.0" y="53.0" font-size="13" font-weight="500" fill="#9198A1" text-anchor="end">Performance · 性能</text>
+<rect x="40" y="92" width="357" height="296" rx="14" fill="url(#panel)" stroke="#3A424B" filter="url(#soft)"/>
+<rect x="64" y="92" width="56" height="3" rx="1.5" fill="#3FB8AF"/>
+<text x="64.0" y="128.0" font-size="13" font-weight="600" fill="#9198A1" text-anchor="start">Local submit latency · 本地提交延迟</text>
+<text x="62.0" y="204.0" font-size="68" font-weight="800" fill="url(#num)" text-anchor="start" letter-spacing="-2">23</text>
+<text x="146.0" y="204.0" font-size="18" font-weight="600" fill="#3FB8AF" text-anchor="start">ms  p99</text>
+<rect x="72" y="286" width="293" height="12" rx="6" fill="#0D1117" stroke="#3A424B"/>
+<rect x="72" y="286" width="224.6" height="12" rx="6" fill="url(#bar)" filter="url(#glow)" opacity="0.6"/>
+<rect x="72" y="286" width="224.6" height="12" rx="6" fill="url(#bar)"/>
+<line x1="72.0" y1="306" x2="72.0" y2="311" stroke="#3A424B"/>
+<text x="72.0" y="326.0" font-size="11" font-weight="500" fill="#9198A1" text-anchor="middle">0</text>
+<line x1="169.7" y1="306" x2="169.7" y2="311" stroke="#3A424B"/>
+<text x="169.7" y="326.0" font-size="11" font-weight="500" fill="#9198A1" text-anchor="middle">10</text>
+<line x1="267.3" y1="306" x2="267.3" y2="311" stroke="#3A424B"/>
+<text x="267.3" y="326.0" font-size="11" font-weight="500" fill="#9198A1" text-anchor="middle">20</text>
+<line x1="365.0" y1="306" x2="365.0" y2="311" stroke="#3A424B"/>
+<text x="365.0" y="326.0" font-size="11" font-weight="500" fill="#9198A1" text-anchor="middle">30</text>
+<rect x="174.7" y="246" width="68" height="24" rx="12" fill="#0F2422" stroke="#256D68"/>
+<text x="208.7" y="262.5" font-size="12" font-weight="700" fill="#3FB8AF" text-anchor="middle">p50 · 14</text>
+<circle cx="208.7" cy="292" r="8" fill="#0D1117" stroke="#3FB8AF" stroke-width="3.5"/>
+<rect x="262.6" y="246" width="68" height="24" rx="12" fill="#0F2422" stroke="#256D68"/>
+<text x="296.6" y="262.5" font-size="12" font-weight="700" fill="#3FB8AF" text-anchor="middle">p99 · 23</text>
+<circle cx="296.6" cy="292" r="8" fill="#0D1117" stroke="#3FB8AF" stroke-width="3.5"/>
+<rect x="421" y="92" width="357" height="296" rx="14" fill="url(#panel)" stroke="#3A424B" filter="url(#soft)"/>
+<rect x="445" y="92" width="56" height="3" rx="1.5" fill="#3FB8AF"/>
+<text x="445.0" y="128.0" font-size="13" font-weight="600" fill="#9198A1" text-anchor="start">Two-source bursts · 双来源信号脉冲</text>
+<text x="443.0" y="204.0" font-size="68" font-weight="800" fill="url(#num)" text-anchor="start" letter-spacing="-2">150</text>
+<text x="561.0" y="204.0" font-size="18" font-weight="600" fill="#3FB8AF" text-anchor="start">signals / s</text>
+<path d="M449.0,324 L470.5,324 C478.5,324 474.5,238 484.5,238 L499.5,238 C509.5,238 505.5,324 513.5,324 L556.5,324 C564.5,324 560.5,238 570.5,238 L585.5,238 C595.5,238 591.5,324 599.5,324 L642.5,324 C650.5,324 646.5,238 656.5,238 L671.5,238 C681.5,238 677.5,324 685.5,324 L750.0,324 Z" fill="url(#area)"/>
+<path d="M449.0,324 L470.5,324 C478.5,324 474.5,238 484.5,238 L499.5,238 C509.5,238 505.5,324 513.5,324 L556.5,324 C564.5,324 560.5,238 570.5,238 L585.5,238 C595.5,238 591.5,324 599.5,324 L642.5,324 C650.5,324 646.5,238 656.5,238 L671.5,238 C681.5,238 677.5,324 685.5,324 L750.0,324" fill="none" stroke="#3FB8AF" stroke-width="6" opacity="0.35" filter="url(#glow)"/>
+<path d="M449.0,324 L470.5,324 C478.5,324 474.5,238 484.5,238 L499.5,238 C509.5,238 505.5,324 513.5,324 L556.5,324 C564.5,324 560.5,238 570.5,238 L585.5,238 C595.5,238 591.5,324 599.5,324 L642.5,324 C650.5,324 646.5,238 656.5,238 L671.5,238 C681.5,238 677.5,324 685.5,324 L750.0,324" fill="none" stroke="#3FB8AF" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="449" y1="238" x2="750" y2="238" stroke="#256D68" stroke-dasharray="3 5"/>
+<text x="492.0" y="348.0" font-size="11" font-weight="500" fill="#9198A1" text-anchor="middle">5 s</text>
+<text x="578.0" y="348.0" font-size="11" font-weight="500" fill="#9198A1" text-anchor="middle">5 s</text>
+<text x="664.0" y="348.0" font-size="11" font-weight="500" fill="#9198A1" text-anchor="middle">5 s</text>
+<rect x="802" y="92" width="357" height="296" rx="14" fill="url(#panel)" stroke="#3A424B" filter="url(#soft)"/>
+<rect x="826" y="92" width="56" height="3" rx="1.5" fill="#3FB8AF"/>
+<text x="826.0" y="128.0" font-size="13" font-weight="600" fill="#9198A1" text-anchor="start">Multi-source following · 多来源跟随</text>
+<text x="824.0" y="204.0" font-size="68" font-weight="800" fill="url(#num)" text-anchor="start" letter-spacing="-2">8</text>
+<text x="870.0" y="204.0" font-size="18" font-weight="600" fill="#3FB8AF" text-anchor="start">targets</text>
+<path d="M854.0,234.0 C936.0,234.0 920.0,292 986.0,292" fill="none" stroke="url(#wire)" stroke-width="1.8"/>
+<circle cx="846.0" cy="234.0" r="6" fill="#3FB8AF"/>
+<path d="M854.0,250.6 C936.0,250.6 920.0,292 986.0,292" fill="none" stroke="url(#wire)" stroke-width="1.8"/>
+<circle cx="846.0" cy="250.6" r="6" fill="#3FB8AF"/>
+<path d="M854.0,267.1 C936.0,267.1 920.0,292 986.0,292" fill="none" stroke="url(#wire)" stroke-width="1.8"/>
+<circle cx="846.0" cy="267.1" r="6" fill="#3FB8AF"/>
+<path d="M854.0,283.7 C936.0,283.7 920.0,292 986.0,292" fill="none" stroke="url(#wire)" stroke-width="1.8"/>
+<circle cx="846.0" cy="283.7" r="6" fill="#3FB8AF"/>
+<path d="M854.0,300.3 C936.0,300.3 920.0,292 986.0,292" fill="none" stroke="url(#wire)" stroke-width="1.8"/>
+<circle cx="846.0" cy="300.3" r="6" fill="#3FB8AF"/>
+<path d="M854.0,316.9 C936.0,316.9 920.0,292 986.0,292" fill="none" stroke="url(#wire)" stroke-width="1.8"/>
+<circle cx="846.0" cy="316.9" r="6" fill="#3FB8AF"/>
+<path d="M854.0,333.4 C936.0,333.4 920.0,292 986.0,292" fill="none" stroke="url(#wire)" stroke-width="1.8"/>
+<circle cx="846.0" cy="333.4" r="6" fill="#3FB8AF"/>
+<path d="M854.0,350.0 C936.0,350.0 920.0,292 986.0,292" fill="none" stroke="url(#wire)" stroke-width="1.8"/>
+<circle cx="846.0" cy="350.0" r="6" fill="#3FB8AF"/>
+<circle cx="1016" cy="292" r="52" fill="url(#halo)"/>
+<circle cx="1016" cy="292" r="28" fill="#0D1117" stroke="#3FB8AF" stroke-width="3.5"/>
+<path d="M1009,280 L1028,292 L1009,304 Z" fill="#3FB8AF"/>
+<line x1="1048" y1="292" x2="1068" y2="292" stroke="#3FB8AF" stroke-width="2.5"/>
+<rect x="1068" y="277" width="64" height="30" rx="15" fill="#3FB8AF"/>
+<text x="1100.0" y="297.0" font-size="13" font-weight="800" fill="#0D1117" text-anchor="middle">HL</text>
+<text x="40.0" y="432.0" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">p99: local submission, 1,765 mainnet orders  ·  Bursts: 3 × 5 s per run, 10 runs, not sustained  ·  8: configured limit  ·  3 targets ≈ 144 h live</text>
+<text x="40.0" y="453.0" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">p99 仅为本地提交；脉冲为短时峰值，非持续吞吐；8 为配置上限；3 个目标约 144 小时实盘</text>
 </svg>
