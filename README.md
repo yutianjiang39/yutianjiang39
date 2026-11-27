@@ -56,7 +56,7 @@ A low-latency, multi-source copy-trading engine for Hyperliquid, with risk contr
 </a>
 
 <details>
-<summary><img src="https://img.shields.io/badge/Architecture%20%C2%B7%20%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84-%E2%96%B8%20Click%20to%20expand%20%C2%B7%20%E7%82%B9%E5%87%BB%E5%B1%95%E5%BC%80-3FB8AF?style=for-the-badge&labelColor=161B22" alt="Architecture · 系统架构 — click to expand · 点击展开" /></summary>
+<summary><h4>Architecture · 系统架构</h4></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/multisource-hl-copy-architecture-dark.svg" />
@@ -91,7 +91,7 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 <sub>From the built-in demo report (`python app.py demo`), simulated data. 取自内置演示报告，模拟数据。</sub>
 
 <details>
-<summary><img src="https://img.shields.io/badge/Architecture%20%C2%B7%20%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84-%E2%96%B8%20Click%20to%20expand%20%C2%B7%20%E7%82%B9%E5%87%BB%E5%B1%95%E5%BC%80-3FB8AF?style=for-the-badge&labelColor=161B22" alt="Architecture · 系统架构 — click to expand · 点击展开" /></summary>
+<summary><h4>Architecture · 系统架构</h4></summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hyperliquid-monitor-architecture-dark.svg" />
