@@ -114,10 +114,11 @@ A local-first wallet analytics tool for Hyperliquid, with metrics reconciled aga
 **⏳ In review · 审核中**
 
 - **Hyperliquid** — [hyperliquid-python-sdk #349](https://github.com/hyperliquid-dex/hyperliquid-python-sdk/pull/349) · [nktkas/hyperliquid #204](https://github.com/nktkas/hyperliquid/pull/204) · [hyperliquid-trading-bot #21](https://github.com/chainstacklabs/hyperliquid-trading-bot/pull/21)
-- **Trading engines · 交易引擎** — [nautilus_trader #5771](https://github.com/nautechsystems/nautilus_trader/pull/5771)
+- **Trading engines & frameworks · 交易引擎与框架** — [nautilus_trader #5771](https://github.com/nautechsystems/nautilus_trader/pull/5771) · [lumibot #1345](https://github.com/Lumiwealth/lumibot/pull/1345)
 - **Brokers & exchanges · 券商与交易所** — [coinbase-advanced-py #145](https://github.com/coinbase/coinbase-advanced-py/pull/145) · [#146](https://github.com/coinbase/coinbase-advanced-py/pull/146) · [#147](https://github.com/coinbase/coinbase-advanced-py/pull/147) · [alpaca-py #932](https://github.com/alpacahq/alpaca-py/pull/932) · [#933](https://github.com/alpacahq/alpaca-py/pull/933) · [#934](https://github.com/alpacahq/alpaca-py/pull/934)
-- **Data tooling · 数据工具** — [pyjanitor #1874](https://github.com/pyjanitor-devs/pyjanitor/pull/1874) · [#1875](https://github.com/pyjanitor-devs/pyjanitor/pull/1875) · [#1876](https://github.com/pyjanitor-devs/pyjanitor/pull/1876) · [#1877](https://github.com/pyjanitor-devs/pyjanitor/pull/1877) · [#1878](https://github.com/pyjanitor-devs/pyjanitor/pull/1878) · [#1879](https://github.com/pyjanitor-devs/pyjanitor/pull/1879)
+- **Data tooling · 数据工具** — [pyjanitor #1874](https://github.com/pyjanitor-devs/pyjanitor/pull/1874) · [#1875](https://github.com/pyjanitor-devs/pyjanitor/pull/1875) · [#1876](https://github.com/pyjanitor-devs/pyjanitor/pull/1876) · [#1877](https://github.com/pyjanitor-devs/pyjanitor/pull/1877) · [#1878](https://github.com/pyjanitor-devs/pyjanitor/pull/1878) · [#1879](https://github.com/pyjanitor-devs/pyjanitor/pull/1879) · [#1881](https://github.com/pyjanitor-devs/pyjanitor/pull/1881) · [ibis #12242](https://github.com/ibis-project/ibis/pull/12242)
 - **Rust** — [rust-decimal #897](https://github.com/paupino/rust-decimal/pull/897)
+- **Agents & apps · 智能体与应用** — [zeron #1639](https://github.com/zeronsh/zeron/pull/1639) · [N.E.K.O #4236](https://github.com/Project-N-E-K-O/N.E.K.O/pull/4236)
 
 <sub>[All pull requests](https://github.com/search?q=is%3Apr+author%3Ayutianjiang39+-user%3Ayutianjiang39&type=pullrequests) · 全部 PR</sub>
 
